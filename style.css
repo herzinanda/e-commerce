@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 16fr 1fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "sidebar banner banner banner"
+    "sidebar content content content"
+    "sidebar footer footer footer"
+    ;
+}
+
+.navigasi {
+    grid-area: nav;
+    background-color: aqua;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: salmon;
+}
+
+.banner {
+    grid-area: banner;
+    background-color: magenta;
+}
+
+.content {
+    grid-area: content;
+    background-color: mediumseagreen;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: sienna;
+}
