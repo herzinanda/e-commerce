@@ -1,75 +1,74 @@
-.container {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr 16fr 1fr;
-    grid-template-areas: 
+.main {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 16fr 1fr;
+  grid-template-areas:
     "nav nav nav nav"
     "sidebar banner banner banner"
     "sidebar content content content"
-    "sidebar footer footer footer"
-    ;
+    "sidebar footer footer footer";
 }
 
 .navigasi {
-    display: flex;
-    grid-area: nav;
-    background-color: aqua;
-    justify-content: space-between;
+  display: flex;
+  grid-area: nav;
+  background-color: aqua;
+  justify-content: space-between;
 }
 
 .katalog {
-    display: flex;
-    background-color: blueviolet;
+  display: flex;
+  background-color: blueviolet;
 }
 
-.brand{
-    background-color: brown;
-    width: 100px;
-    height: 100px;
+.brand {
+  background-color: brown;
+  width: 100px;
+  height: 100px;
 }
 
 .merah {
-    background-color: red;
-    width: 100px;
-    height: 100px;
+  background-color: red;
+  width: 100px;
+  height: 100px;
 }
 
 .biru {
-    background-color: blue;
-    width: 100px;
-    height: 100px;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
 }
 
 .oren {
-    background-color: orange;
-    width: 100px;
-    height: 100px;
+  background-color: orange;
+  width: 100px;
+  height: 100px;
 }
 
 .hitam {
-    background-color: black;
-    width: 100px;
-    height: 100px;
-    color: white;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  color: white;
 }
 
 .sidebar {
-    grid-area: sidebar;
-    background-color: salmon;
+  grid-area: sidebar;
+  background-color: salmon;
 }
 
 .banner {
-    grid-area: banner;
-    background-color: magenta;
+  grid-area: banner;
+  background-color: magenta;
 }
 
 .content {
-    grid-area: content;
-    background-color: mediumseagreen;
+  grid-area: content;
+  background-color: white;
 }
 
 .footer {
-    grid-area: footer;
-    background-color: sienna;
+  grid-area: footer;
+  background-color: sienna;
 }
