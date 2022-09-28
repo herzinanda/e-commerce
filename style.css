@@ -12,8 +12,46 @@
 }
 
 .navigasi {
+    display: flex;
     grid-area: nav;
     background-color: aqua;
+    justify-content: space-between;
+}
+
+.katalog {
+    display: flex;
+    background-color: blueviolet;
+}
+
+.brand{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}
+
+.merah {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.biru {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.oren {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+}
+
+.hitam {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    color: white;
 }
 
 .sidebar {
